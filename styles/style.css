@@ -258,3 +258,54 @@ footer {
 .flower {
     color: #E55473;
 }
+
+
+/* media query */
+
+
+@media screen and (max-width: 576px) {
+
+    .nav-container {
+        display: none;
+    }
+
+    .banner-container {
+        flex-direction: row;
+        text-align: center;
+    }
+
+    .banner-des .banner-img {
+    width: 100%;
+}
+
+.banner-heading {
+    font-size: 30px;
+    font-weight: bold;
+}
+.banner-c {
+    font-size: 11gipx;
+}
+
+.banner-container {
+    padding: 20px 60px;
+}
+
+.f-img {
+   height: 300px;
+   width: 200px;
+   
+
+}
+
+.btn {
+    padding: 8px 10px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: #E55473;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+    
+}
