@@ -270,7 +270,7 @@ footer {
     }
 
     .banner-container {
-        flex-direction: row;
+        flex-direction: column;
         text-align: center;
     }
 
